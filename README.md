@@ -1,11 +1,11 @@
-# 🎮 NoobIt - Gestión de Usuarios & Marketplace
+# NoobIt - Gestión de Usuarios & Marketplace
 
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
 
 ---
 
-## 📌 Descripción
+## Descripción
 
 NoobIt es una aplicación de escritorio desarrollada en Java con una interfaz inspirada en el mundo gaming.  
 El sistema permite gestionar usuarios, simular partidas competitivas con sistema de puntos (Ranked Pts) y utilizar un marketplace donde los jugadores pueden comprar recompensas con monedas virtuales.
@@ -14,22 +14,22 @@ Este proyecto aplica conceptos como programación orientada a objetos, patrón D
 
 ---
 
-## ✨ Características Principales
+## Características Principales
 
-### 🔐 Sistema de Autenticación
+### Sistema de Autenticación
 - Login personalizado con ventana sin bordes.
 - Registro de nuevos usuarios.
 - Sistema de roles:
-  - 👑 Administrador
-  - 🎮 Jugador
+  - Administrador
+  - Jugador
 
-### 🛠️ Panel de Administración (VistaAdmin)
+### Panel de Administración (VistaAdmin)
 - CRUD completo de usuarios.
 - Modificación manual de puntos Ranked y monedas.
 - Gestión de recompensas del marketplace.
 - Eliminación de usuarios.
 
-### 🕹️ Experiencia del Jugador (VistaJugador)
+### Experiencia del Jugador (VistaJugador)
 - Simulador de partidas (gana o pierde puntos aleatoriamente).
 - Sistema automático de rangos (de LVL 1 hasta Pro Player).
 - Marketplace para compra de objetos.
@@ -37,7 +37,7 @@ Este proyecto aplica conceptos como programación orientada a objetos, patrón D
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - Lenguaje: Java 17+
 - Interfaz gráfica: Java Swing & AWT
@@ -47,7 +47,7 @@ Este proyecto aplica conceptos como programación orientada a objetos, patrón D
 
 ---
 
-## 🗄️ Base de Datos
+## Base de Datos epica
 
 Base de datos: `noobit_db`
 
@@ -104,7 +104,7 @@ INSERT INTO recompensas (nombre, descripcion, precio) VALUES
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 src/
@@ -124,7 +124,7 @@ src/
 
 ---
 
-## 🚀 Instalación y Ejecución
+## Instalación y Ejecución
 
 1. Clonar el repositorio:
 
@@ -150,7 +150,7 @@ AppNoobit.java
 
 ---
 
-## 🎨 Detalle Técnico
+## Detalle Técnico
 
 La aplicación utiliza ventanas sin barra de título para dar un estilo más inmersivo:
 
@@ -162,7 +162,7 @@ frame.setLocationRelativeTo(null);
 
 ---
 
-## 👤 Autores
+## Artistas de esta obra maestra
 
 Pablo Caballero  
 Néstor Larrea
